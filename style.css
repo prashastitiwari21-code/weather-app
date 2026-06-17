@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #1a1a2e;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 480px;
+  border: 1px solid #dce3ed;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 1.25rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+select {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.95rem;
+  border: 1px solid #cdd5e0;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #4a6fa5;
+}
+
+button#get-weather-btn {
+  width: 100%;
+  padding: 0.65rem;
+  background-color: #4a6fa5;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button#get-weather-btn:hover {
+  background-color: #3a5a8c;
+}
+
+div {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 480px;
+  border: 1px solid #dce3ed;
+}
+
+#weather-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+#location {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.2rem;
+}
+
+#weather-main {
+  font-size: 0.95rem;
+  color: #5f6b7a;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+#main-temperature {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4a6fa5;
+  margin-bottom: 0.25rem;
+}
+
+#feels-like {
+  font-size: 0.875rem;
+  color: #5f6b7a;
+  margin-bottom: 1rem;
+}
+
+#humidity,
+#wind,
+#wind-gust {
+  font-size: 0.9rem;
+  color: #3d4a5c;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eef1f5;
+}
+
+#wind-gust {
+  border-bottom: none;
+}
